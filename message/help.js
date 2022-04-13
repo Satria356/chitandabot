@@ -49,14 +49,14 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
   ≻ ${prefix}tovid
 
   *( ⌛ )  Downloader*
-  ≻ ${prefix}play
-  ≻ ${prefix}tiktok
-  ≻ ${prefix}ytmp4
-  ≻ ${prefix}ytmp3
+  ≻ ${prefix}play <query>
+  ≻ ${prefix}tiktok «linktt»
+  ≻ ${prefix}ytmp4 ‹linkyt›
+  ≻ ${prefix}ytmp3 ⟨linkyt⟩
   ≻ ${prefix}getvideo
   ≻ ${prefix}getmusic
-  ≻ ${prefix}instagram
-  ≻ ${prefix}facebook
+  ≻ ${prefix}instagram <linkig>
+  ≻ ${prefix}facebook <linkfb>
   
   *( ♻️ )  Random Menu*
   ≻ ${prefix}quote
@@ -64,9 +64,9 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
   ≻ ${prefix}cogan
   
   *( 🔎 )  Search Menu*
-  ≻ ${prefix}lirik
+  ≻ ${prefix}lirik <judullagu>
   ≻ ${prefix}grupwa
-  ≻ ${prefix}ytsearch
+  ≻ ${prefix}ytsearch <query>
   
   *( 🎮 )  Game Menu*
   ≻ ${prefix}tictactoe
